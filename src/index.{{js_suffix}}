@@ -1,0 +1,7 @@
+class Template {
+    constructor() {
+        console.log('rollup tempalte')
+    }
+}
+
+export default Template

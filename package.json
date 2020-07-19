@@ -1,0 +1,32 @@
+{
+  "name": "template-rollup",
+  "version": "1.0.0",
+  "description": "rollup template",
+  "main": "dist/bundle.cjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cli-templates/template-rollup.git"
+  },
+  "keywords": [
+    "rollup"
+  ],
+  "author": "biaodigit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cli-templates/template-rollup/issues"
+  },
+  "homepage": "https://github.com/cli-templates/template-rollup#readme",
+  "devDependencies": {
+    "rollup": "^2.18.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-sourcemaps": "^0.6.2",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.6"
+  }
+}
