@@ -4,7 +4,8 @@
   "description": "rollup template",
   "main": "dist/bundle.cjs.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "{{#with typescript}}tsc --module commonjs --outDir dist/lib && {{/with}}rollup -c"
   },
   "repository": {
     "type": "git",
