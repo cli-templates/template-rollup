@@ -1,0 +1,5 @@
+{{#unless typescript}}
+tsconfig.json
+{{/unless}}
+.git
+template.ignore
